@@ -15,31 +15,37 @@ Color Palette:
 }
 
 body {
-    
+    background-color: #CCAF9D;
+}
+
+header {
+    background-color: #804720;
 }
 
 h1 {
-
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 auto;
+    color: #F7A26C;
 }
 
 h2 {
 
-} 
+}
 
 blockquote {
-
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+    color: #F7A26C;
 } 
 
-nav {
-
-}
-
-nav ul {
-
-}
-
-nav li {
-
+nav img, .navmap {
+    display: block;
+    width: 92%;
+    margin: 0 auto;
 }
 
 nav a {
