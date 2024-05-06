@@ -31,7 +31,29 @@ h1 {
 }
 
 h2 {
+	display: block;
+    text-align: center;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
 
+h3 {
+	display: block;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+.list {
+	display: inline-block;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+main img {
+	display: block; 
+	width: 50%; 
+	margin: 0 auto;
 }
 
 blockquote {
@@ -44,7 +66,6 @@ blockquote {
 
 nav img, .navmap {
     display: block;
-    width: 92%;
     margin: 0 auto;
 }
 
@@ -56,14 +77,72 @@ nav a:hover {
     
 }
 
+main {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+ol {
+	margin-left: 8%;
+}
+
 table {
-
+	width: 80%;
+	margin: 0 auto;
+	border: solid #804720 1px;
+	border-collapse: collapse;
+	padding: 0;
+	text-align: center;
+	background-color: #E76A1A;
+	color: #804720;
 }
 
-tr {
-
+td, th {
+	padding: 10px 0;
+	text-align: center;
+	border: solid #804720 1px;
+	border-collapse: collapse;
 }
 
-th, td {
+label {
+	padding: 25px 0;
+	font-size: 1.5em;
+	text-align: center;
+}
 
+input {
+	height: 1.6em;
+	width: 9.8em;
+	border-radius: 25px;
+	font-size: 1.4em;
+	font-weight: bold;
+	background-color: #5C3317;
+	color: #F7A26C;
+	border: 5px inset #832C2C;
+	text-align: center;
+	padding: 0;
+}
+
+footer {
+	display: block;
+	text-align: center;
+	background-color: #5C3317;
+	color: #F7A26C;
+	margin-top: 2%
+}
+
+footer nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+footer nav li {
+	display: inline-block;
+	padding: 0 1%;
+}
+
+footer nav a {
+	text-decoration: none;
+	color: #CCAF9D;
 }
